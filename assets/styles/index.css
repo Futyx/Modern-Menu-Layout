@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+header {
+  background-color: #ffc857;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #0000001a;
+}
+.logo__image {
+  width: 42px;
+  height: 42px;
+  margin-top: 5px;
+}
+nav {
+  background: #ffc857;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav__link {
+  width: 60px;
+  height: 60px;
+  background: #ffffff4d;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+.nav__link__image {
+  margin-top: 6px;
+  width: 32px;
+  height: 32px;
+}
+.nav__link__title {
+  font-family: Vazirmatn;
+  margin-bottom: 6px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+}
+
+.menu {
+  background: rgba(0, 0, 0, 0.765);
+  height: 500px;
+}
+
+.menu__title {
+  color: #db3a34;
+  font-family: Vazirmatn;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 0;
+}
+
+.menu__item {
+  background: #ffffff33;
+  display: flex;
+  border-radius: 12px;
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #ffffff;
+}
+.menu__item__title {
+  font-family: Vazirmatn;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21.88px;
+  text-align: right;
+}
+
+.menu__item__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  padding: 4px;
+}
+.image__container {
+  height: 84px;
+  width: 84px;
+  text-align: center;
+}
+.menu__item__detail {
+  width: 231px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menu__item__desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: Vazirmatn;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 14px;
+  text-align: justified;
+  margin-top: -12px;
+  color: #ffffffb2;
+}
+
+.menu__item__price {
+  background-color: #db3a34;
+}
+.value {
+  font-family: Vazirmatn;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 21px;
+  position: absolute;
+  bottom: 6px;
+  left: 35px;
+}
+.currency {
+  font-family: Vazirmatn;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 8px;
+  width: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 3px;
+}
