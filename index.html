@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" scroll-behavior: smooth>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,84 +23,541 @@
           />
         </div>
       </header>
-      <nav>
-        <div class="nav__link">
-          <img
-            class="nav__link__image"
-            src="./assets/images/icon_nachos.svg"
-            title=""
-            alt=""
-          />
 
-          <div class="nav__link__title">ناچوز</div>
-        </div>
-        <div class="nav__link">
-          <img
-            class="nav__link__image"
-            src="./assets/images/icon_borito.svg"
-            title=""
-            alt=""
-          />
-
-          <div class="nav__link__title">بوریتو</div>
-        </div>
-
-        <div class="nav__link">
-          <img
-            class="nav__link__image"
-            src="./assets/images/icon_taco.svg"
-            title=""
-            alt=""
-          />
-
-          <div class="nav__link__title">تاکو</div>
-        </div>
-        <div class="nav__link">
-          <img
-            class="nav__link__image"
-            src="./assets/images/icon_sandwich.svg"
-            title=""
-            alt=""
-          />
-
-          <div class="nav__link__title">ساندویچ</div>
-        </div>
-        <div class="nav__link">
-          <img
-            class="nav__link__image"
-            src="./assets/images/icon_pizza.svg"
-            title=""
-            alt=""
-          />
-
-          <div class="nav__link__title">پیتزا</div>
-        </div>
-      </nav>
-      <section class="menu">
-        <h2 class="menu__title">پیتزا</h2>
-        <div class="menu__item">
-          <div class="image__container">
+      <nav class="nav_sm">
+        <a href="#nachos" title="" class="button">
+          <div class="nav__link">
             <img
-              class="menu__item__image"
-              src="./assets/images/pizza.svg"
+              class="nav__link__image"
+              src="./assets/images/icon_nachos.svg"
               title=""
               alt=""
             />
-          </div>
-          <div class="menu__item__detail">
-            <h3 class="menu__item__title">پیتزا مخلوط</h3>
 
-            <div class="menu__item__desc">
-              بیکن، چوریتسوی دست‌ساز، چیلی کان کارنه (خورشت گوشت فلفلی)، لوبیا
-              سیاه، قارچ، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره)
-            </div>
-            <div class="menu__item__price">
-              <div class="value">۱۴۸.۹</div>
-              <div class="currency">هــزار تومان</div>
-            </div>
+            <div class="nav__link__title">ناچوز</div>
           </div>
+        </a>
+        <a href="#borito" title="" class="button">
+          <div class="nav__link">
+            <img
+              class="nav__link__image"
+              src="./assets/images/icon_borito.svg"
+              title=""
+              alt=""
+            />
+
+            <div class="nav__link__title">بوریتو</div>
+          </div>
+        </a>
+        <a href="#taco" title="" class="button">
+          <div class="nav__link">
+            <img
+              class="nav__link__image"
+              src="./assets/images/icon_taco.svg"
+              title=""
+              alt=""
+            />
+
+            <div class="nav__link__title">تاکو</div>
+          </div>
+        </a>
+        <a href="#sandwich" title="" class="button">
+          <div class="nav__link">
+            <img
+              class="nav__link__image"
+              src="./assets/images/icon_sandwich.svg"
+              title=""
+              alt=""
+            />
+
+            <div class="nav__link__title">ساندویچ</div>
+          </div>
+        </a>
+        <a href="#pizza" title="" class="button">
+          <div class="nav__link">
+            <img
+              class="nav__link__image"
+              src="./assets/images/icon_pizza.svg"
+              title=""
+              alt=""
+            />
+
+            <div class="nav__link__title">پیتزا</div>
+          </div>
+        </a>
+      </nav>
+
+      <div class="menu">
+        <div>
+          <nav class="nav_lg">
+            <a href="#pizza" title="" class="button">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_pizza.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">پیتزا</div>
+              </div>
+            </a>
+
+            <a href="#sandwich" title="">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_sandwich.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">ساندویچ</div>
+              </div>
+            </a>
+            <a href="#taco" title="" class="button">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_taco.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">تاکو</div>
+              </div>
+            </a>
+            <a href="#borito" title="" class="button">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_borito.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">بوریتو</div>
+              </div>
+            </a>
+            <a href="#nachos" title="" class="button">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_nachos.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">ناچوز</div>
+              </div>
+            </a>
+            <a href="#fries" title="">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_fries.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">سیب زمینی</div>
+              </div>
+            </a>
+            <a href="#salad" title="" class="button">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_salad.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">سالاد</div>
+              </div>
+            </a>
+            <a href="#drink" title="" class="button">
+              <div class="nav__link">
+                <img
+                  class="nav__link__image"
+                  src="./assets/images/icon_drink.svg"
+                  title=""
+                  alt=""
+                />
+
+                <div class="nav__link__title">نوشیدنی</div>
+              </div>
+            </a>
+          </nav>
         </div>
-      </section>
+        <div>
+          <section id="pizza">
+            <h2 class="menu__title">پیتزا</h2>
+
+            <div class="col-2">
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/pizza_mix.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/pizza_mix_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">پیتزا مخلوط</h3>
+
+                  <div class="menu__item__desc">
+                    <p>
+                      بیکن، چوریتسوی دست‌ساز، چیلی کان کارنه (خورشت گوشت فلفلی)،
+                      لوبیا سیاه، قارچ، سس گوجه خانگی و میکس پنیر مخصوص (تک
+                      نفره)
+                    </p>
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۸.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/pizza_chillie.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/pizza_chillie_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">پیتزا چیلی کان کارنه</h3>
+
+                  <div class="menu__item__desc">
+                    چیلی کان کارنه (خورشت گوشت فلفلی)، فلفل هالوپینو، چیپس ناچوی
+                    دست‌ساز، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره و تند)
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۳.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item align_right">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/pizza_choritso.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/pizza_choritso_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">پیتزا چوریتسو</h3>
+
+                  <div class="menu__item__desc">
+                    پیتزا تک نفره با نان ضخیم دست ساز، چوریتسو دست ساز و خانگی،
+                    قارچ، فلفل دلمه ای، زیتون سیاه، سس گوجه خانگی و میکس پنیر
+                    مخصوص (تک نفره)
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۳.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/pizza_stake.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/pizza_stake_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">پیتزا استیک</h3>
+
+                  <div class="menu__item__desc"></div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۵۲.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/pizza_chicken.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/pizza_chicken_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">پیتزا مرغ باربیکیو</h3>
+
+                  <div class="menu__item__desc">
+                    مرغ گریل با سس باربکیوی دست‌ساز، فلفل دلمه، قارچ، زیتون،
+                    پیاز، گشنیز تازه، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره)
+                    دست‌ساز، سس گوجه خانگی و میکس پنیر مخصوص (تک نفره و تند)
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۳.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="sandwich">
+            <h2 class="menu__title">ساندویچ</h2>
+            <div class="col-2">
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/torta_choritso.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/torta_choritso_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">تورتا چوریتسو</h3>
+
+                  <div class="menu__item__desc">
+                    ساندویچ چوریتسو دست ساز مایا، کاهو، سالسا گوجه فرنگی، پیاز
+                    سوخاری، باگت دست ساز
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۱۲.۴</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/torta_barbaco.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/torta_barbacoa_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">تورتا بارباکوآ</h3>
+
+                  <div class="menu__item__desc">
+                    ساندویچ رست بیف، کاهو، سالسا گوجه فرنگی، پیاز سوخاری، باگت
+                    دست ساز
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۸.۴</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/torta_tufu.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/torta_tufu_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">تورتا توفو</h3>
+
+                  <div class="menu__item__desc">
+                    ساندویچ توفو ویژه گیاهخواران، کاهو، سالسا گوجه فرنگی، پیاز
+                    سوخاری، باگت دست ساز
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۲۵.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class=" margin_right">
+            <section id="taco">
+              <h2 class="menu__title">تاکو</h2>
+              <div class="col-2">
+                <div class="menu__item">
+                  <div class="image__container">
+                    <img
+                      class="menu__item__image"
+                      src="./assets/images/taco.svg"
+                      title=""
+                      alt=""
+                    />
+                    <img
+                      class="menu__item__image-lg"
+                      src="./assets/images/taco_lg.svg"
+                      title=""
+                      alt=""
+                    />
+                  </div>
+                  <div class="menu__item__detail">
+                    <h3 class="menu__item__title">سه آمیگو</h3>
+
+                    <div class="menu__item__desc">
+                      سه عدد تاکو (مرغ گریل، بارباکوآ، چوریتسو)، با تورتیای ذرت
+                      دست‌ساز مایا (بدون هر نوع افزودنی)، سالساها و سس‌های خانگی
+                      (سرو به صورت سرد)
+                    </div>
+                    <div class="menu__item__price">
+                      <div class="value">۱۰۳.۴</div>
+                      <div class="currency">هــزار تومان</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <section id="borito">
+            <h2 class="menu__title">بوریتو</h2>
+            <div class="col-2">
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/borito.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/borito_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">بوریتو چوریتسو</h3>
+
+                  <div class="menu__item__desc">
+                    رپ نیم کیلویی با چوریتسوری دست‌ساز در نان تورتیای دست ساز،
+                    برنج مکزیکی یا سیب زمینی سرخ کرده، کاهو، ریفراید بینز، خامه
+                    ترش، سالسا
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۸.۴</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/borito.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/borito_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">بوریتو چیلی کان کارنه</h3>
+
+                  <div class="menu__item__desc">
+                    رپ نیم کیلویی با خورشت چیلی کان کارنه (گوشت و فلفل) در نان
+                    تورتیای دست ساز، برنج مکزیکی یا سیب زمینی سرخ کرده، کاهو،
+                    ریفراید بینز، خامه ترش، سالسا
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۳.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+              <div class="menu__item">
+                <div class="image__container">
+                  <img
+                    class="menu__item__image"
+                    src="./assets/images/borito.svg"
+                    title=""
+                    alt=""
+                  />
+                  <img
+                    class="menu__item__image-lg"
+                    src="./assets/images/borito_lg.svg"
+                    title=""
+                    alt=""
+                  />
+                </div>
+                <div class="menu__item__detail">
+                  <h3 class="menu__item__title">بوریتو مرغ گریل</h3>
+
+                  <div class="menu__item__desc">
+                    رپ نیم کیلویی با مرغ فاهیتای گریل شده در نان تورتیای دست
+                    ساز، برنج مکزیکی یا سیب زمینی سرخ کرده، کاهو، ریفراید بینز،
+                    خامه ترش، سالسا
+                  </div>
+                  <div class="menu__item__price">
+                    <div class="value">۱۴۳.۹</div>
+                    <div class="currency">هــزار تومان</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 </html>
